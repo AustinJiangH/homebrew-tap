@@ -1,11 +1,11 @@
 cask "privovoice" do
-  version "0.1.0"
-  sha256 "12cae0e765ac5264137a32d17fec95e258470dc79b37266497b70ddab24888ba"
+  version "0.2.0"
+  sha256 "c5b930d9310f91211a03b4b680009372c63dc5149c983293f6b11f11f98b0c1a"
 
   url "https://github.com/AustinJiangH/PrivoVoice/releases/download/v#{version}/PrivoVoice-#{version}.dmg"
   name "PrivoVoice"
   desc "Private, on-device push-to-talk dictation for macOS"
-  homepage "https://austinjiangh.github.io/PrivoVoice/"
+  homepage "https://privovoice.com/"
 
   depends_on arch: :arm64
 
