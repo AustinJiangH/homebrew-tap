@@ -1,6 +1,6 @@
 cask "privovoice" do
-  version "0.2.1"
-  sha256 "570addbb5b323ac3342e2c8c7871e22e5e39cdbeb3eefc13ec3175ba084b7e11"
+  version "0.2.2"
+  sha256 "a344a9cec17b7233afc12ba6f919694a1c942126c9ab75d04d6c84f545ca9f4e"
 
   url "https://github.com/AustinJiangH/PrivoVoice/releases/download/v#{version}/PrivoVoice-#{version}.dmg"
   name "PrivoVoice"
